@@ -1,0 +1,160 @@
+*{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: oblique;
+    background-color: rgb(228, 225, 221);
+}
+.image-div{
+    /* border: 1px solid black; */
+    margin-left: 36%;
+}
+.image-div img{
+    height: 230px;
+    border-radius: 50%;
+    /* filter: blur(); */
+    width: 270px;
+    box-shadow: 0px 4px 8px rgb(rgb(139, 98, 98), rgb(153, 250, 153), rgb(33, 161, 170));
+}
+
+header{
+    margin-top: 40px;
+    height: 90px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+h1{ 
+    font-weight: 200;
+}
+h2{
+    margin-left: 10px;
+}
+header p{
+     margin-top: 17px;
+}
+
+header p a {
+    text-decoration: none;
+}
+
+section{
+    font-weight: 100;
+    font-style: oblique;
+}
+.main-obj p{
+    padding: 10px 35px;
+}
+
+#personal-info {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.info-item{
+    margin: 10px 35px;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.programming-skill{
+    margin: 10px 35px;
+}
+.paragraph{
+    margin-left: 10px;
+}
+.hidden {
+    display: none;
+}
+#toggle-info{
+    margin-left: 450px;
+    width: 100px;
+}
+.footer{
+    margin-top: 2px;
+    text-align: center;
+    background-color: beige;
+    font-weight: 100;
+    height: 22px;
+}
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .image-div{
+        padding: auto;
+    }
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .main-obj p {
+        padding: 10px 15px;
+    }
+
+    .info-item {
+        margin: 10px 5px;
+        width: auto;
+        font-size: 14px;
+    }
+
+    .programming-skill li {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+        height: auto;
+        padding: 5px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .main-obj p {
+        padding: 10px 25px;
+    }
+
+    .info-item {
+        margin: 10px 20px;
+        width: auto;
+        font-size: 16px;
+    }
+
+    .programming-skill li {
+        font-size: 16px;
+    }
+
+    .footer {
+        font-size: 14px;
+        height: auto;
+        padding: 10px;
+    }
+}
